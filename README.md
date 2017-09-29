@@ -54,5 +54,5 @@ Then checkout the "packages" branch and merge your version into it. result:
 
 # Changelog
 
-    YYYY-MM-DD
-        Added Version vA.B.C
+    2017-09
+        Adds Version v2.4.0
