@@ -21,14 +21,14 @@ back to the packages branch.
 # Examples/ Howto add new versions
 
 ## branch master
-./README.txt (copy of this readme)
+    ./README.txt (copy of this readme)
 
 
 ## branch of vA-B-C
-./vA.B.C/qunit.js
-...
-./vA.B.C/README.txt (README of qunit vA.B.C)
-./README.txt (copy of this readme)
+    ./vA.B.C/qunit.js
+    ...
+    ./vA.B.C/README.txt (README of qunit vA.B.C)
+    ./README.txt (copy of this readme)
 
 
 If a new version exists and you need it globaly/ in packages branch:
@@ -43,11 +43,11 @@ commit & push the new version branch
 
 Then checkout the "packages" branch and merge your version into it. result:
 # packages branch
-./vA.B.C/qunit.js
-./vA.B.C/README.txt
-./v2.0.1/qunit.js
-./v2.0.1/README.txt
-./README.txt (copy of this readme on creation time)
+    ./vA.B.C/qunit.js
+    ./vA.B.C/README.txt
+    ./v2.0.1/qunit.js
+    ./v2.0.1/README.txt
+    ./README.txt (copy of this readme on creation time)
 
 
 
